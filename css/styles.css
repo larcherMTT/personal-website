@@ -1,0 +1,29 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+header, nav, main, footer {
+  margin: 20px;
+}
+
+header {
+  background-color: #eee;
+  padding: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
